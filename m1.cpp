@@ -5,11 +5,11 @@ using namespace std;
 int main() {
 	setlocale (LC_ALL,"Russian");
 	int N;
-	cout<<"Ââåäèòå êîëè÷åñòâî òåñòèðîâàíèé ";
+	cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ‚ÐµÑÑ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð¸Ð¹ ";
 	cin>>N;
 	for (int i=0;i<N;i++) {
 		int F;
-		cout<<"Ââåäèòå öåëîå ÷èñëî F= ";
+		cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ F= ";
 		cin>>F;
 		int x1=0, x2=1, x3=0;
 		while (x3 < F) {
@@ -17,8 +17,8 @@ int main() {
 			x2 = x1;
 			x1 = x3;
 		}
-		if ( F == x3 ) cout<<"Ôèáîíà÷÷è"<<endl;
-		else cout<<"Óâû"<<endl;
+		if ( F == x3 ) cout<<"Ð¤Ð¸Ð±Ð¾Ð½Ð°Ñ‡Ñ‡Ð¸"<<endl;
+		else cout<<"Ð£Ð²Ñ‹!"<<endl;
 	}
 	return 1;
 }
